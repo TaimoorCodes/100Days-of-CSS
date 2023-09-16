@@ -1,0 +1,37 @@
+.stage-wrapper{
+  width:800px;
+  height:600px;
+  top:50%;
+  left:50%;
+        position:absolute;
+        transform:translate(-50%,-50%);
+        background:#fff;
+        filter: blur(10px) contrast(20);
+}
+.obj-1,.obj-2{
+  width:150px;
+  height:150px;
+        top:50%;left:50%;
+  position:absolute;
+        border-radius:50%;
+  background:#00118B;
+  transform:translate(-50%,-50%);
+}
+.obj-1{
+  left:30%;
+  animation:ani-1 3s ease infinite;
+}
+.obj-2{
+  left:70%;
+  animation:ani-2 3s ease infinite;
+}
+@keyframes ani-1{
+  0%{left:30%; }
+  50%{left:50%; }
+  100%{left:30%; }
+}
+@keyframes ani-2{
+  0%{left:70%;}
+  50%{left:50%;}
+  100%{left:70%;}
+}
