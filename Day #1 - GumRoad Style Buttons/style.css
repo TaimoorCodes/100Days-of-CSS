@@ -1,1 +1,67 @@
+body {
+  cursor: none;
+}
 
+.btn-1 {
+    outline: 0;
+    align-items: center;
+    background-color: #ff90e8;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 12px 20px;
+    transition: all .14s ease-out;
+    margin-right: 12px;
+}
+
+.btn-1:hover {
+    box-shadow: 4px 4px 0 #000;
+    transform: translate(-4px,-4px);
+}
+
+.btn-1:focus-visible{
+    outline-offset: 1px;
+}
+
+.btn-2 {
+	outline: 0;
+  grid-gap: 8px;
+  align-items: center;
+  background: 0 0;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-size: 16px;
+  gap: 8px;
+  justify-content: center;
+  line-height: 1.5;
+  overflow: hidden;
+  padding: 12px 20px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all .14s ease-out;
+  white-space: nowrap;
+}
+
+.btn-2:hover 
+{
+  box-shadow: 4px 4px 0 #000;
+  transform: translate(-4px,-4px);
+}
+
+.btn-2:focus-visible
+{
+    outline-offset: 1px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}         
