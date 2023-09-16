@@ -1,1 +1,60 @@
+:root {
+  --col-bg-1: 255,135,221;
+  --col-bg-2: 38,35,32;
+  --col-fg-p: 255,255,255;
+  --col-fg-s: 241,99,49;
+  --col-fg-ps: purple;
+  --col-fg-ss: 255,255,255;
+}
 
+body {  
+  background-color: rgb(var(--col-bg-1));
+  margin: 0;
+  padding: 0;
+}
+
+.side {
+  display: grid;
+  height: 100vh;
+  overflow: hidden;
+  place-items: center;
+  position: absolute;
+  width: 100%;
+}
+
+.side .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 7vw;
+  font-weight: 800;
+  margin: 0px 10vw;
+  width: 80vw;
+  text-align: center;
+}
+
+#left-side {
+  background-color: rgb(var(--col-bg-1));
+  width: 60%;
+  z-index: 2;
+  max-width: 100%;
+}
+
+#left-side .title {  
+  color: rgb(var(--col-fg-p));
+}
+
+#right-side {
+  background-color: rgb(var(--col-bg-2));
+  max-width: 100%;
+}
+
+.oppie {
+  font-weight: 600 !important;
+  letter-spacing: 3vw;
+  color: rgb(var(--col-fg-s)) !important;
+  font-size: 3vw !important;
+}
+
+.barbie {
+  margin-top: 20px;
+  font-family: "Norican", sans-serif !important;
+}
